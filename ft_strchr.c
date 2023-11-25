@@ -6,12 +6,11 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 12:48:27 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/06 15:34:54 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/23 21:13:50 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {
@@ -30,9 +29,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s + i);
 	return (0);
 }
-/*int	main(void)
-{
-	char	str[] = "hello zainab!";
-	printf ("%s\n", ft_strchr(str, 'z'));
-	printf ("%s", strchr(str, 'z'));
-}*/

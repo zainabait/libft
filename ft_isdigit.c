@@ -6,13 +6,13 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 20:05:20 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/10/30 20:44:57 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/20 20:36:47 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 int	ft_isdigit(int d)
 {
-	if (d >= '0' && d <= '9')
-		return (1);
-	return (0);
+	return (d >= '0' && d <= '9');
 }

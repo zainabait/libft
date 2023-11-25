@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/09 21:19:10 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/11 16:56:37 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/23 21:21:50 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = '\0';
 	return (str);
 }
-// int	main (void)
-// {
-// 	char	str[] = "heeeyyy";
-
-// 	printf ("%s", ft_substr(str, 2, 4));
-// }

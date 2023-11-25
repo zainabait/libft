@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 17:59:35 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/13 17:00:14 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/23 21:13:14 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,15 +88,3 @@ char	**ft_split(char const *s, char c)
 	arr = ft_fill_arr(arr, c, s);
 	return (arr);
 }
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	// char *t = "zainab***kda***sal3os***skander";
-// 	char **p = ft_split("          ", ' ');
-// 	p && print("%p|%p", p , p[0]);
-// 	// int	i = 0;
-// 	// for ( i = 0; r[i]; i++)
-// 	// {
-// 	// 	printf("%s\n",r[i]);
-// 	// }
-// }

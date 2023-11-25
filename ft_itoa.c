@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 20:14:07 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/13 15:48:40 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/24 17:29:15 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,6 @@ char	*ft_itoa(int n)
 	str = ft_calloc(count + 1, sizeof(char));
 	if (!str)
 		return (NULL);
-	str[count] = '\0';
 	if (nbr == 0)
 		str[0] = '0';
 	if (nbr < 0)

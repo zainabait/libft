@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 19:37:55 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/13 20:51:20 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/23 21:20:59 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,3 @@ int	ft_strncmp(char const *s1, char const *s2, size_t n)
 	}
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
-// int main ()
-// {
-// 	int res ;
-// 	res = strncmp(NULL , "ksks" , 0);
-// 	printf("%d" , res);
-// }

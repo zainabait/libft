@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 11:45:03 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/14 17:23:56 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/25 08:52:33 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	if (s && fd)
-		write(fd, s, ft_strlen(s));
+	if (!s || fd < 0)
+		return ;
+	write(fd, s, ft_strlen(s));
 	write(fd, "\n", 1);
 }

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/01 09:54:08 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/20 14:11:22 by zait-bel         ###   ########.fr       */
+/*   Created: 2023/11/21 11:44:29 by zait-bel          #+#    #+#             */
+/*   Updated: 2023/11/25 12:10:33 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,11 @@
 # define LIBFT_H
 
 # include <unistd.h>
-# include <stdlib.h>
 # include <stdio.h>
+# include <stdlib.h>
 # include <stddef.h>
+# include <limits.h>
+# include <fcntl.h>
 
 typedef struct s_list
 {
@@ -24,6 +26,7 @@ typedef struct s_list
 	struct s_list	*next;
 }	t_list;
 void	ft_bzero(void *s, size_t n);
+int		ft_isalnum(int a);
 int		ft_isalpha(int c);
 int		ft_isalpha(int c);
 int		ft_isascii(int c);
@@ -67,4 +70,7 @@ t_list	*ft_lstlast(t_list *lst);
 void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
+void	ft_lstclear(t_list **lst, void (*del)(void *));
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
 #endif

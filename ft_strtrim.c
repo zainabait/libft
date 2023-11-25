@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/10 19:27:29 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/17 19:06:29 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/23 21:21:23 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		end --;
 	return (ft_substr(s1, start, (end - start) + 1));
 }
-// int	main(void)
-// {
-// 	char *res = ft_strtrim("", "");
-// }

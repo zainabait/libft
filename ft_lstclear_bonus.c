@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/18 20:27:49 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/19 11:08:27 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/25 12:35:44 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*ptr;
 
-	if (!lst)
+	if (!lst || !del)
 		return ;
 	while (*lst)
 	{

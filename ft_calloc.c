@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/09 14:56:50 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/10 18:52:48 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/25 11:51:14 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
 
+	if ((int)count < 0 || (int)size < 0)
+		return (NULL);
 	ptr = malloc (count * size);
 	if (!ptr)
 		return (NULL);

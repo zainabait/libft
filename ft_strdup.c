@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/09 16:39:47 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/09 21:39:09 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/23 21:14:01 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,3 @@ char	*ft_strdup(const char *s1)
 	ptr[i] = '\0';
 	return (ptr);
 }
-
-// int	main(void)
-// {
-// 	char	str[] = "heey zainabo!";
-
-// 	printf ("%s", ft_strdup(str));
-// }

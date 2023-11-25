@@ -6,7 +6,7 @@
 /*   By: zait-bel <zait-bel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 14:15:48 by zait-bel          #+#    #+#             */
-/*   Updated: 2023/11/11 12:07:34 by zait-bel         ###   ########.fr       */
+/*   Updated: 2023/11/24 16:34:27 by zait-bel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,3 @@ void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);
 }
-
-//  int	main(void)
-//  {
-// 	int i = 0;
-//  	//int	s1[] = {1,2,3};
-// 	char s2[] = "heey";
-//  	// ft_bzero(s1, 2);
-// 	 ft_bzero(s2, 2);
-//  	printf ("%s", s2);
-//  }
